@@ -9,4 +9,8 @@ Compares the description with existing data to give top 10 similar products i.e.
 
 How to use ?
 - Use the folder gcp_app to deploy model on GCP
-- Use url_finder 
+- url_finder/url_finder.py driver code to get data from cloud
+- scrapper contains ipynb file to scrap data from mintra and ajio and save it as csv
+- other files
+ 	- url_finder/call_w_page gets the data and use chromium to display data/open all the url
+ 	- url_finder/main_locl_app.py is a script to deploy flask on local server
